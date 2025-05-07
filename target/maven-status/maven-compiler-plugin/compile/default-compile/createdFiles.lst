@@ -1,0 +1,13 @@
+com/okr/service/IniciativaService.class
+com/okr/repository/ObjetivoRepository.class
+com/okr/controller/ObjetivoController.class
+com/okr/service/ObjetivoService.class
+com/okr/repository/ResultadoChaveRepository.class
+com/okr/service/ResultadoChaveService.class
+com/okr/controller/ResultadoChaveController.class
+com/okr/model/Iniciativa.class
+com/okr/repository/IniciativaRepository.class
+com/okr/model/Objetivo.class
+com/okr/OkrApplication.class
+com/okr/controller/IniciativaController.class
+com/okr/model/ResultadoChave.class
