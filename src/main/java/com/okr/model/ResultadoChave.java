@@ -1,5 +1,6 @@
 package com.okr.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -9,6 +10,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@JsonIgnoreProperties({ "objetivo", "iniciativas" })
 public class ResultadoChave {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
