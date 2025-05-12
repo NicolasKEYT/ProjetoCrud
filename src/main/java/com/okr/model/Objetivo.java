@@ -10,7 +10,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@JsonIgnoreProperties("resultadosChave")
+// @JsonIgnoreProperties("resultadosChave")
 public class Objetivo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
