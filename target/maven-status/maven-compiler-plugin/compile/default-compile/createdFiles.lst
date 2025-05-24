@@ -8,6 +8,7 @@ com/okr/controller/ResultadoChaveController.class
 com/okr/model/Iniciativa.class
 com/okr/repository/IniciativaRepository.class
 com/okr/model/Objetivo.class
+com/okr/OkrApplication$1.class
 com/okr/OkrApplication.class
 com/okr/controller/IniciativaController.class
 com/okr/model/ResultadoChave.class
