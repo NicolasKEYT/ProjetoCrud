@@ -1,0 +1,14 @@
+| Método       | Endpoint | Descrição      |
+|------------|-------|--------------|
+| POST      | /objetivo   | Cria novo Obj  |
+| GET      | /objetivo    | Lista Novo Obj |
+
+| Método       | Endpoint | Descrição      |
+|------------|-------|--------------|
+| POST      | /iniciativa   | Cria novo Obj  |
+| GET      | /iniciativa    | Lista Novo Obj |
+
+| Método       | Endpoint | Descrição      |
+|------------|-------|--------------|
+| POST      | /krs   | Cria novo Obj  |
+| GET      | /krs    | Lista Novo Obj |
