@@ -69,12 +69,7 @@ export default function ObjetivosPage() {
               {obj.porcentagemConclusao}%
             </div>
             <div className="flex gap-4 text-sm">
-              <button
-                onClick={() => router.push(`/objetivos/${obj.id}/progresso`)}
-                className="text-green-600 hover:underline"
-              >
-                Atualizar Progresso
-              </button>
+              
               <Link
                 href={`/objetivos/${obj.id}`}
                 className="text-blue-600 hover:underline"

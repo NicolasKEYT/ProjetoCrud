@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.okr.ObjetivoControllerIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.975 s - in com.okr.ObjetivoControllerIntegrationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.402 s - in com.okr.ObjetivoControllerIntegrationTest
