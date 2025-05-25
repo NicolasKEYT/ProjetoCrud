@@ -1,6 +1,7 @@
 'use client'
 import { useRouter } from 'next/navigation'
 import ObjetivoForm, { ObjetivoData } from '@/components/ObjetivoForm'
+import Link from 'next/link'
 
 export default function NewObjetivoPage() {
   const router = useRouter()
@@ -15,9 +16,19 @@ export default function NewObjetivoPage() {
   }
 
   return (
-    <div className="max-w-xl mx-auto">
-      <h1 className="text-2xl mb-4">Criar Objetivo</h1>
-      <ObjetivoForm onSubmit={criar} />
+    <div className="flex flex-col items-center justify-center min-h-[70vh] px-4">
+      <div className="w-full max-w-xl bg-white border border-gray-200 shadow rounded-2xl p-6 space-y-6">
+        <div className="flex items-center justify-between">
+          <h1 className="text-2xl font-bold text-gray-800">Criar Objetivo</h1>
+          <Link
+            href="/objetivos"
+            className="px-4 py-2 text-sm rounded-xl bg-white border border-gray-300 hover:shadow transition text-gray-700"
+          >
+            ← Voltar
+          </Link>
+        </div>
+        <ObjetivoForm onSubmit={criar} />
+      </div>
     </div>
   )
 }

@@ -1,7 +1,6 @@
 // src/app/layout.tsx
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Navbar from "@/components/Navbar";   // <-- importe a Navbar
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "OKR Dashboard",
-  description: "Sistema simplificado de gestão de OKRs",
+  title: "OKRs App",
+  description: "Visualize e gerencie seus OKRs com facilidade",
 };
 
 export default function RootLayout({
@@ -25,22 +24,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} bg-gray-50 text-gray-900 antialiased min-h-screen`}
       >
-        {/* Navbar fica fixa no topo */}
-        <Navbar />
-
-        {/* Conteúdo principal */}
-        <main className="flex-1 p-8">
+        <main className="max-w-5xl mx-auto px-4 py-8">
           {children}
         </main>
-
-        {/* Opcional: footer global */}
-        <footer className="text-center py-4 border-t">
-          © {new Date().getFullYear()} Nicolas Gonçalves
-        </footer>
       </body>
     </html>
   );
