@@ -7,11 +7,8 @@ com/okr/controller/ResultadoChaveController.class
 com/okr/model/Iniciativa.class
 com/okr/service/ResultadoChaveService.class
 com/okr/model/Objetivo.class
-<<<<<<< HEAD
 com/okr/repository/IniciativaRepository.class
-=======
 com/okr/OkrApplication$1.class
->>>>>>> 9bb9fabe93d51438fd2f00df293fdf9c23e08510
 com/okr/OkrApplication.class
 com/okr/controller/IniciativaController.class
 com/okr/model/ResultadoChave.class
