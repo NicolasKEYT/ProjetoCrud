@@ -37,11 +37,11 @@ export default function Home() {
       </main>
 
       <footer className="mt-12 text-sm text-gray-400 flex flex-wrap gap-4 justify-center">
-        <Link href="https://nextjs.org/docs" className="hover:text-blue-500">
-          Docs do Next.js
+        <Link href="" className="hover:text-blue-500">
+          Nicolas Gonçalves
         </Link>
-        <Link href="https://vercel.com/" className="hover:text-blue-500">
-          Deploy com Vercel
+        <Link href="" className="hover:text-blue-500">
+          Vinicius Gomes
         </Link>
       </footer>
     </div>
